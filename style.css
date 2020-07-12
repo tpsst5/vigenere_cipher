@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  background-color: aliceblue;
+  text-transform: uppercase;
+}
+
+.header {
+  text-align: center;
+  margin: 2rem;
+  font-size: 2.5rem;
+  color: #444;
+}
+
+.container {
+  max-width: 600px;
+  display: grid;
+  margin: auto;
+}
+
+.input-text {
+  padding: 0.5rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  border: 2px solid #444;
+  color: #444;
+}
+
+.input-keyword {
+  padding: 0.5rem;
+  width: 30%;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  border: 2px solid #444;
+  font-size: 1rem;
+  color: #444;
+}
+
+.btn {
+  display: block;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.encrypt-btn {
+  background-color: #5e6368;
+}
+
+.encrypt-btn:hover {
+  background-color: #fff;
+  color: #5e6368;
+}
+
+.decrypt-btn {
+  background-color: #0753a0;
+}
+
+.decrypt-btn:hover {
+  background-color: #fff;
+  color: #0753a0;
+}
+
+.reset-btn {
+  background-color: #ec9191;
+  color: #fff;
+}
+
+.reset-btn:hover {
+  background-color: #fff;
+  color: #ec9191;
+}
